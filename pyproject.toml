@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "fastapi"
+name = "fastapi_app"
 version = "0.1.0"
 description = ""
 authors = ["Your Name <you@example.com>"]
@@ -8,6 +8,8 @@ readme = "README.md"
 
 [tool.poetry.dependencies]
 python = "^3.12"
+fastapi = {extras = ["standart"], version = "^0.115.2"}
+uvicorn = {extras = ["standart"], version = "^0.31.1"}
 
 
 [build-system]
